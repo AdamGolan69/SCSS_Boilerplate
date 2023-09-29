@@ -1,0 +1,12 @@
+@use "../../base/variables/pkg.scss" as *;
+
+@mixin createWhiteSpace($name) {
+  @for $i from 1 through 6 {
+    $value: $i * 5;
+    @each $suffix, $pos in $posiotions {
+      #{"." + $name}-#{$suffix}-#{$value} {
+        #{""+$name}-#{$pos}: #{$value}px;
+      }
+    }
+  }
+}
