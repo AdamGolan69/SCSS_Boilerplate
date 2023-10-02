@@ -28,11 +28,28 @@ $customColors: (
 // var(--fontSize);
 $screens: (
   $xs: (
+    // 320
     fontSize: 13px,
   ),
-  $sm: (),
-  $md: (),
-  $lg: (),
-  $xl: (),
-  $xxl: (),
+  $sm: (
+    // 540
+  ),
+  $md: (
+    // 720
+  ),
+  $lg: (
+    // 960
+  ),
+  $xl: (
+    // 1140
+  ),
+  $xxl: (
+    // 1299
+  ),
 );
+
+// Class generators switches.
+// Margins & Paddings.
+$whiteSpaces: true;
+// Shadows.
+$shadows: true;

@@ -1,4 +1,9 @@
-@use '../base/functions/pkg.scss' as *;
+@use "../base/functions/pkg.scss" as *;
+@use "../config.scss" as *;
 
-@include createWhiteSpace("margin");
-@include createWhiteSpace("padding");
+@if $whiteSpaces {
+    @include createWhiteSpace;
+}
+@if $shadows {
+    @include createShadows;
+}
