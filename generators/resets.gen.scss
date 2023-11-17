@@ -23,12 +23,14 @@
   text-decoration: none;
   color: var(--color);
   font-size: var(--fontSize);
-  font-family: monospace, sans-serif;
+  font-family: $font;
+  z-index: 0;
+  overflow: hidden;
+  transition: all 0.2s ease-in-out;
   &:not(input, textarea) {
     user-select: none;
   }
-  z-index: 0;
-  overflow: hidden;
+  
   &:focus {
     &:not(a, button, input, textarea) {
       outline: none;
