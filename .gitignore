@@ -1,3 +1,4 @@
+# .gitignore for 'SCSS_Boilerplate'
 dist
 node_modules
 pages/*
