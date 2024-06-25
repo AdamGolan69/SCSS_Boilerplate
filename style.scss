@@ -1,3 +1,10 @@
 @use './generators/index.gen.scss';
 
 // Your code - import via @use.
+@use "./pages/home/home.scss";
+
+@use './pages/shared/adder/adder.scss';
+@use './pages/shared/modal/modal.scss';
+@use './pages/shared/forms/forms.scss';
+
+#app {}
